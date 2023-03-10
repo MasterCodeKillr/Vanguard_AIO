@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vanguard_AIO"
         mc:Ignorable="d"
-        Title="Vanguard.AIO" Height="800" Width="1200">
+        Title="Beta Vanguard.AIO" Height="800" Width="1200">
     <Grid Background="#FFCFA200" Grid.IsSharedSizeScope="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
