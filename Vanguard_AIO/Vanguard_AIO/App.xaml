@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:Vanguard_AIO"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/MenuButtons.xaml"/>
+                <ResourceDictionary Source="Themes/MenuButtonsAlt.xaml"/>
+                <ResourceDictionary Source="Themes/ExportButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
