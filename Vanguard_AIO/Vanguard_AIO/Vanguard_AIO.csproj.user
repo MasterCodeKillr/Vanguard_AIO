@@ -12,5 +12,29 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\BrowserDeckLog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\BrowserHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\BrowserNaruGaming.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\BrowserTCGMassEntry.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\BrowserVGParadox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ExportButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\MenuButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\MenuButtonsAlt.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>
