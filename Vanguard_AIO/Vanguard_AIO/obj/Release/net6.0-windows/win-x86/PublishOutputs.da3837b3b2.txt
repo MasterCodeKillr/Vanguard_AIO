@@ -1,7 +1,12 @@
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.exe
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\jsconfig.json
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\NaruLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\VGAIO_v2.png
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.deps.json
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.runtimeconfig.json
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.dll.config
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.pdb
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Microsoft.CSharp.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Microsoft.VisualBasic.Core.dll
@@ -502,3 +507,9 @@ C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\zh-Hant\UIAu
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\zh-Hant\UIAutomationTypes.resources.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\zh-Hant\WindowsBase.resources.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\zh-Hant\WindowsFormsIntegration.resources.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Microsoft.Web.WebView2.Core.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Newtonsoft.Json.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\RestSharp.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\WebView2Loader.dll

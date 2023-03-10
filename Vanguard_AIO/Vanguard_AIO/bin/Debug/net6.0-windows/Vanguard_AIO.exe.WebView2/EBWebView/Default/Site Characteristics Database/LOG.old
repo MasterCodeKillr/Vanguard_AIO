@@ -1,2 +1,5 @@
-2023/03/10-11:58:44.612 bc40 Creating DB C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Vanguard_AIO.exe.WebView2\EBWebView\Default\Site Characteristics Database since it was missing.
-2023/03/10-11:58:44.622 bc40 Reusing MANIFEST C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Vanguard_AIO.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2023/03/10-12:06:59.016 8600 Log #3: 6 ops saved to Table #4 OK
+2023/03/10-12:06:59.019 8600 Archiving C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Vanguard_AIO.exe.WebView2\EBWebView\Default\Site Characteristics Database/000003.log: OK
+2023/03/10-12:06:59.019 8600 Table #4: 6 entries OK
+2023/03/10-12:06:59.022 8600 Archiving C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Vanguard_AIO.exe.WebView2\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
+2023/03/10-12:06:59.029 8600 **** Repaired leveldb C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Vanguard_AIO.exe.WebView2\EBWebView\Default\Site Characteristics Database; recovered 1 files; 346 bytes. Some data may have been lost. ****

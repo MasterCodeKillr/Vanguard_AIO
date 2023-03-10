@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "c+m0Mi5MoMQGchSMzmSo6eyDwQigrePyV5zvte/cnqgx5DqiNr9J1Heni7HDyoOn7tTmCVPOz4pMamnIa5AIJA==",
+  "dgSpecHash": "EbUbOP7UX0UlZb0Iww2ZjienPTkgQFUWaVX3j49TWIlf6kIQK2irM+dkoBQZCJC85rlmFieXmp6lZa3l2KkApQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dustin\\source\\repos\\MasterCodeKillr\\Vanguard_AIO\\Vanguard_AIO\\Vanguard_AIO\\Vanguard_AIO.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.web.webview2\\1.0.1587.40\\microsoft.web.webview2.1.0.1587.40.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.6\\microsoft.netcore.app.runtime.win-x86.6.0.6.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.6\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.6.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.6\\microsoft.aspnetcore.app.runtime.win-x86.6.0.6.nupkg.sha512"
