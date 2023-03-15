@@ -11,6 +11,7 @@ C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\BrowserNaruGaming.g.cs
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\BrowserTCGMassEntry.g.cs
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\BrowserVGParadox.g.cs
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\Creators.g.cs
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO_Content.g.cs
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO_MarkupCompile.cache
@@ -18,6 +19,9 @@ C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Images\twitchLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Images\twitterLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Images\youTubeLogo.png
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\jsconfig.json
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Images\NaruLogo.png
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\bin\Debug\net6.0-windows\Images\VGAIO_v2.png
@@ -36,6 +40,7 @@ C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\BrowserHome.baml
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\BrowserTCGMassEntry.baml
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Pages\Creators.baml
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO.g.resources
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO.AssemblyInfoInputs.cache
@@ -47,3 +52,5 @@ C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO.pdb
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Vanguard_AIO.genruntimeconfig.cache
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\ref\Vanguard_AIO.dll
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Components\CreatorLinks.g.cs
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\obj\Debug\net6.0-windows\Components\CreatorLinks.baml

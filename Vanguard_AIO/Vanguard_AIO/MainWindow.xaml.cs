@@ -27,6 +27,7 @@ namespace Vanguard_AIO
         BrowserNaruGaming naruPage;
         BrowserDeckLog deckLogPage;
         BrowserVGParadox paradoxPage;
+        private Creators creatorsPage;
         public MainWindow()
         {
             tcgPage = new BrowserTCGMassEntry();
@@ -34,6 +35,7 @@ namespace Vanguard_AIO
             naruPage = new BrowserNaruGaming();
             deckLogPage = new BrowserDeckLog();
             paradoxPage = new BrowserVGParadox();
+            creatorsPage = new Creators();
             InitializeComponent();
         }
 
@@ -130,7 +132,8 @@ namespace Vanguard_AIO
         private void CreatorsBtn_Checked(object sender, RoutedEventArgs e)
         {
             SetVisibility(false);
-            ShowBrowser(false);
+            ShowBrowser(true);
+            frMain.Content = creatorsPage;
         }
 
         private void SettingsBtn_Checked(object sender, RoutedEventArgs e)

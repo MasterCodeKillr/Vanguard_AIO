@@ -8,10 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\twitchLogo.png" />
+    <None Remove="Images\twitterLogo.png" />
+    <None Remove="Images\youTubeLogo.png" />
     <None Remove="jsconfig.json" />
+    <None Remove="Pages\purple-twitch-logo.png" />
+    <None Remove="Pages\twitter-logo.png" />
+    <None Remove="Pages\youtube-logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\twitchLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\twitterLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\youTubeLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="jsconfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

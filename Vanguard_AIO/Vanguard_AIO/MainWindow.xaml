@@ -18,7 +18,7 @@
         <Label x:Name="lblDeckCode" Content="Deck Code: " HorizontalAlignment="Left" Margin="255,0,0,0" VerticalContentAlignment="Center" RenderTransformOrigin="1.026,0.534" Height="50" Grid.Column="1" Width="130" FontSize="24" FontFamily="Impact"/>
         <TextBox x:Name="tbDeckCode" Padding="5" VerticalAlignment="Stretch"  HorizontalAlignment="Left" Margin="385,0,0,0" VerticalContentAlignment="Center" TextAlignment="Center" Width="120" Height="30" Background="White" Grid.Column="1" FontSize="18" MaxLines="1" HorizontalContentAlignment="Center" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled" FontFamily="Arial Rounded MT Bold"/>
         <Button x:Name="btExportTCG" Style="{StaticResource ExportButtonTheme}" Content="Export To TCG" HorizontalAlignment="Left" Height="30" Margin="521,0,0,0" VerticalAlignment="Center" Width="115" Click="btExportTCG_Click" Grid.Column="1" Foreground="White" FontSize="16" FontFamily="Impact"/>
-        <Frame x:Name="frMain" Grid.Row="1" Margin="10,0,10,10" Grid.Column="1" Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+        <Frame x:Name="frMain" NavigationUIVisibility="Hidden" Grid.Row="1" Margin="10,0,10,10" Grid.Column="1" Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
         <StackPanel Grid.Row="1" Grid.Column="0" Background="#FF962727">
             <RadioButton x:Name="HomeBtn"
                          Content="Home"

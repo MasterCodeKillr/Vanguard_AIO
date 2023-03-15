@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Vanguard_AIO.Components.CreatorLinks"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Vanguard_AIO.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="200">
+    <Grid Width="200" Height="100">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="creatorNamelbl" Grid.ColumnSpan="3" FontFamily="Impact" FontSize="26" Content="@Narusamurai" Height="50" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image x:Name="twitchLogo" Grid.Row="1" Height="30" Width="30" Source="/Images/twitchLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" MouseDown="twitchLogo_MouseDown"/>
+        <Image x:Name="youTubeLogo" Grid.Row="1" Grid.Column="1" Height="30" Width="30" Source="/Images/youTubeLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" MouseDown="youTubeLogo_MouseDown"/>
+        <Image x:Name="twitterLogo" Grid.Row="1" Grid.Column="2" Height="30" Width="30" Source="/Images/twitterLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" MouseDown="twitterLogo_MouseDown"/>
+
+    </Grid>
+</UserControl>
