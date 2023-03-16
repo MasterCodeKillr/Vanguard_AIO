@@ -27,7 +27,12 @@ namespace Vanguard_AIO
         BrowserNaruGaming naruPage;
         BrowserDeckLog deckLogPage;
         BrowserVGParadox paradoxPage;
-        private Creators creatorsPage;
+        Creators creatorsPage;
+        private bool tcgCheck = false;
+        private bool homeCheck = false;
+        private bool naruCheck = false;
+        private bool deckLogCheck = false;
+        private bool paradoxCheck = false;
         public MainWindow()
         {
             tcgPage = new BrowserTCGMassEntry();
@@ -63,6 +68,7 @@ namespace Vanguard_AIO
         private async void btExportTCG_Click(object sender, RoutedEventArgs e)
         {
             tbDeckCode.Text = tbDeckCode.Text.ToUpper();
+            tcgPage.NavigateTo("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
             if (validEntry())
             {
                 MassEntryBtn.IsChecked = true;
@@ -75,8 +81,10 @@ namespace Vanguard_AIO
         {
             ShowBrowser(true);
             SetVisibility(true);
-            tcgPage.NavigateTo("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
+            if (!tcgCheck)
+                tcgPage.NavigateTo("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
             frMain.Content = tcgPage;
+            tcgCheck = true;
         }
 
         public void SetVisibility(bool visible)
@@ -101,32 +109,40 @@ namespace Vanguard_AIO
         {
             ShowBrowser(true);
             SetVisibility(false);
-            homePage.NavigateTo("https://narusamuraigaming.com/pages/vanguard-aio");
+            if(!homeCheck)
+                homePage.NavigateTo("https://narusamuraigaming.com/pages/vanguard-aio");
             frMain.Content = homePage;
+            homeCheck = true;
         }
 
         private void DeckLogBtn_Checked(object sender, RoutedEventArgs e)
         {
             ShowBrowser(true);
             SetVisibility(true);
-            deckLogPage.NavigateTo("https://decklog-en.bushiroad.com/");
+            if(!deckLogCheck)
+                deckLogPage.NavigateTo("https://decklog-en.bushiroad.com/");
             frMain.Content = deckLogPage;
+            deckLogCheck = true;
         }
 
         private void ParadoxBtn_Checked(object sender, RoutedEventArgs e)
         {
             ShowBrowser(true);
             SetVisibility(true);
-            paradoxPage.NavigateTo("https://vg-paradox.com/");
+            if(!paradoxCheck)
+                paradoxPage.NavigateTo("https://vg-paradox.com/");
             frMain.Content = paradoxPage;
+            paradoxCheck = true;
         }
 
         private void NaruBtn_Checked(object sender, RoutedEventArgs e)
         {
             ShowBrowser(true);
             SetVisibility(true);
-            naruPage.NavigateTo("https://narusamuraigaming.com/");
+            if(!naruCheck)
+                naruPage.NavigateTo("https://narusamuraigaming.com/");
             frMain.Content = naruPage;
+            naruCheck = true;
         }
 
         private void CreatorsBtn_Checked(object sender, RoutedEventArgs e)
@@ -144,7 +160,16 @@ namespace Vanguard_AIO
 
         private void MassEntryBtn_Click(object sender, RoutedEventArgs e)
         {
-            tcgPage.NavigateTo("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
+            if(!tcgCheck)
+                tcgPage.NavigateTo("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
+            tcgCheck = true;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(MassEntryBtn.IsChecked == true)
+                tcgPage.goBack();
+
         }
     }
 }

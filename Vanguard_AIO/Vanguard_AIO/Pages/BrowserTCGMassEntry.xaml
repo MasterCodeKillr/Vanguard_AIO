@@ -12,7 +12,16 @@
 
     <Border>
         <Grid>
-            <wpf:WebView2 x:Name="wbTCG"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Rectangle Height="20" Stroke="Black" VerticalAlignment="Center" Fill="DarkGray"/>
+            <Button Width="20" HorizontalAlignment="Left" Margin="5,0,0,0" Background="Transparent" Foreground="Transparent" BorderBrush="Transparent">
+                <Image Source="../Images/back_button.png" MouseDown="Image_MouseDown" Stretch="UniformToFill" />
+            </Button>
+            <wpf:WebView2 Grid.Row="1" x:Name="wbTCG"/>
+
         </Grid>
     </Border>
 </Page>

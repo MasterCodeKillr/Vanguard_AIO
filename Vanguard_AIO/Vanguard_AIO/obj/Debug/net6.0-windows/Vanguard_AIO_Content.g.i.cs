@@ -8,9 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/back_button.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/twitchlogo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/twitterlogo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/youtubelogo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("creatorlist.json")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jsconfig.json")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webview2loader.dll")]

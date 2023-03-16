@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vanguard_AIO"
         mc:Ignorable="d"
-        Title="Vanguard.AIO" Height="800" Width="1200">
+        Title="Vanguard.AIO" Height="800" Width="1200" WindowStartupLocation="CenterScreen">
     <Grid Background="#FFCFA200" Grid.IsSharedSizeScope="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
@@ -76,6 +76,7 @@
             <TextBlock><Run Foreground="#FF961111" Text="Vanguard"/><Run Text=".AIO"/></TextBlock>
         </Label>
         <Image x:Name="LogoImage" Source="/VGAIO_v2.png" Opacity="0.6" Margin="0,0,0,8" Grid.Row="1" HorizontalAlignment="Center" Width="308" Height="222" VerticalAlignment="Bottom"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.118,0.45" Click="Button_Click"/>
 
     </Grid>
 </Window>

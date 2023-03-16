@@ -12,12 +12,18 @@
     <Compile Update="Components\CreatorLinks.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Dialogs\AddCreator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\Creators.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Components\CreatorLinks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dialogs\AddCreator.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -39,6 +45,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\Creators.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\CircleButton.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Themes\ExportButton.xaml">

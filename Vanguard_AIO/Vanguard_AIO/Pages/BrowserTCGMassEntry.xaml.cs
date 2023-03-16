@@ -43,6 +43,11 @@ namespace Vanguard_AIO.Pages
             tcg.Source = new Uri(url);
         }
 
+        public void goBack()
+        {
+            tcg.GoBack();
+        }
+
         public static async Task getSource(string code)
         {
             try
@@ -73,6 +78,11 @@ namespace Vanguard_AIO.Pages
             string command = $"const string = document.createElement(\"div\")\nstring.className = 'row'\nstring.innerHTML = '{cards.Last()}'\ndocument.querySelector(\"#mass-entry > div.mass-entry__body > div.box.input-box > section\").prepend(string)";
             await tcg.ExecuteScriptAsync(command1);
             await tcg.ExecuteScriptAsync(command);
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            tcg.GoBack();
         }
     }
 }

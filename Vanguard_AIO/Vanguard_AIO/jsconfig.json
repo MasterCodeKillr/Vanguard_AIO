@@ -22,5 +22,13 @@
     "GR",
     "ZR",
     "LIR"
+  ],
+  "creators": [
+    {
+      "name": "MasterCodeKillr",
+      "twitch": "https://www.twitch.tv/narusamurai",
+      "youtube": "https://www.youtube.com/@NaruSamurai",
+      "twitter": "https://twitter.com/NaruSamurai"
+    }
   ]
 }

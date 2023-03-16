@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\Vanguard_AIO\Vanguard_AIO\App.xaml
-111323781459
-7-1518011099
-171948748515
+13-71142869
+9203974000
+20-865953908
 199-364593833
-Components\CreatorLinks.xaml;MainWindow.xaml;Pages\BrowserDeckLog.xaml;Pages\BrowserHome.xaml;Pages\BrowserNaruGaming.xaml;Pages\BrowserTCGMassEntry.xaml;Pages\BrowserVGParadox.xaml;Pages\Creators.xaml;Themes\ExportButton.xaml;Themes\MenuButtons.xaml;Themes\MenuButtonsAlt.xaml;
+Components\CreatorLinks.xaml;Dialogs\AddCreator.xaml;MainWindow.xaml;Pages\BrowserDeckLog.xaml;Pages\BrowserHome.xaml;Pages\BrowserNaruGaming.xaml;Pages\BrowserTCGMassEntry.xaml;Pages\BrowserVGParadox.xaml;Pages\Creators.xaml;Themes\CircleButton.xaml;Themes\ExportButton.xaml;Themes\MenuButtons.xaml;Themes\MenuButtonsAlt.xaml;
 
 False
 
