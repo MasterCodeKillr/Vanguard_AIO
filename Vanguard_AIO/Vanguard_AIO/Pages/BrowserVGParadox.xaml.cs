@@ -29,6 +29,21 @@ namespace Vanguard_AIO.Pages
             paradox = wbParadox;
         }
 
+        public void goBack()
+        {
+            paradox.GoBack();
+        }
+
+        public void goForward()
+        {
+            paradox.GoForward();
+        }
+
+        public void refresh()
+        {
+            wbParadox.Source = new Uri("https://vg-paradox.com/");
+        }
+
         public void NavigateTo(string url)
         {
             paradox.Source = new Uri(url);

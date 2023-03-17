@@ -62,6 +62,7 @@ namespace Vanguard_AIO.Pages
                 {
                     creatorGrid.Children.Add(new CreatorLinks(creator.name, creator.twitch, creator.youtube,
                         creator.twitter));
+                    CreatorList.CurrentList.Add(creator);
                 }
             }
         }

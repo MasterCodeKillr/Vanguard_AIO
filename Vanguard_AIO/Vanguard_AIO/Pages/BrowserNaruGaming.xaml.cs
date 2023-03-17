@@ -29,6 +29,21 @@ namespace Vanguard_AIO.Pages
             naru = wbNaru;
         }
 
+        public void goBack()
+        {
+            naru.GoBack();
+        }
+
+        public void goForward()
+        {
+            naru.GoForward();
+        }
+
+        public void refresh()
+        {
+            wbNaru.Source = new Uri("https://narusamuraigaming.com/");
+        }
+
         public void NavigateTo(string url)
         {
             naru.Source = new Uri(url);

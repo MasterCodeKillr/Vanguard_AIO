@@ -28,6 +28,20 @@ namespace Vanguard_AIO.Pages
             wbDeckLog.Source = new Uri("https://decklog-en.bushiroad.com/");
             deckLog = wbDeckLog;
         }
+        public void goBack()
+        {
+            deckLog.GoBack();
+        }
+
+        public void goForward()
+        {
+            deckLog.GoForward();
+        }
+
+        public void refresh()
+        {
+            wbDeckLog.Source = new Uri("https://decklog-en.bushiroad.com/");
+        }
 
         public void NavigateTo(string url)
         {

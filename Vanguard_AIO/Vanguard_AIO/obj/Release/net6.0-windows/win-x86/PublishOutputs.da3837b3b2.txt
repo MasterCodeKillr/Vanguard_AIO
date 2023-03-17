@@ -1,4 +1,11 @@
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Vanguard_AIO.exe
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\arrow.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\back_button.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\refresh_arrow.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\twitchLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\twitterLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\youTubeLogo.png
+C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\creatorlist.json
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\jsconfig.json
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\runtimes\win-x86\native\WebView2Loader.dll
 C:\Users\Dustin\source\repos\MasterCodeKillr\Vanguard_AIO\published\Images\NaruLogo.png

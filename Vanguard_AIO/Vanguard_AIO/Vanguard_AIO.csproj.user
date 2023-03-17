@@ -9,7 +9,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Components\BackButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Components\CreatorLinks.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\ForwardButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\RefreshArrow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Dialogs\AddCreator.xaml.cs">
@@ -20,7 +29,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Components\BackButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Components\CreatorLinks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\ForwardButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\RefreshArrow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Dialogs\AddCreator.xaml">

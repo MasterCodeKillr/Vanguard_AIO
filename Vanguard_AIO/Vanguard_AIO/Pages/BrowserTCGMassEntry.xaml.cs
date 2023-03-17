@@ -48,6 +48,16 @@ namespace Vanguard_AIO.Pages
             tcg.GoBack();
         }
 
+        public void goForward()
+        {
+            tcg.GoForward();
+        }
+
+        public void refresh()
+        {
+            wbTCG.Source = new Uri("https://www.tcgplayer.com/massentry?productline=Cardfight%20Vanguard&utm_campaign=affiliate&utm_medium=NaruSamurai&utm_source=NaruSamurai");
+        }
+
         public static async Task getSource(string code)
         {
             try

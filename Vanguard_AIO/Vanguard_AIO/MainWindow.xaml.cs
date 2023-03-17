@@ -171,5 +171,47 @@ namespace Vanguard_AIO
                 tcgPage.goBack();
 
         }
+
+        private void BackButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (MassEntryBtn.IsChecked == true)
+                tcgPage.goBack();
+            if (HomeBtn.IsChecked == true)
+                homePage.goBack();
+            if (ParadoxBtn.IsChecked == true)
+                paradoxPage.goBack();
+            if (NaruBtn.IsChecked == true)
+                naruPage.goBack();
+            if (DeckLogBtn.IsChecked == true)
+                deckLogPage.goBack();
+        }
+
+        private void ForwardButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (MassEntryBtn.IsChecked == true)
+                tcgPage.goForward();
+            if (HomeBtn.IsChecked == true)
+                homePage.goForward();
+            if (ParadoxBtn.IsChecked == true)
+                paradoxPage.goForward();
+            if (NaruBtn.IsChecked == true)
+                naruPage.goForward();
+            if (DeckLogBtn.IsChecked == true)
+                deckLogPage.goForward();
+        }
+
+        private void RefreshArrow_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (MassEntryBtn.IsChecked == true)
+                tcgPage.refresh();
+            if (HomeBtn.IsChecked == true)
+                homePage.refresh();
+            if (ParadoxBtn.IsChecked == true)
+                paradoxPage.refresh();
+            if (NaruBtn.IsChecked == true)
+                naruPage.refresh();
+            if (DeckLogBtn.IsChecked == true)
+                deckLogPage.refresh();
+        }
     }
 }

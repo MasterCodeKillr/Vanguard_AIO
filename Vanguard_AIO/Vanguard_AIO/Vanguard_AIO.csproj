@@ -9,19 +9,26 @@
 
   <ItemGroup>
     <None Remove="creatorlist.json" />
+    <None Remove="Images\arrow.png" />
     <None Remove="Images\back_button.png" />
+    <None Remove="Images\refresh_arrow.png" />
     <None Remove="Images\twitchLogo.png" />
     <None Remove="Images\twitterLogo.png" />
     <None Remove="Images\youTubeLogo.png" />
     <None Remove="jsconfig.json" />
-    <None Remove="Pages\back_button.png" />
     <None Remove="Pages\purple-twitch-logo.png" />
     <None Remove="Pages\twitter-logo.png" />
     <None Remove="Pages\youtube-logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\arrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\back_button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\refresh_arrow.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\twitchLogo.png">
@@ -57,7 +64,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Resource Include="Pages\back_button.png" />
 		<Resource Include="VGAIO_v2.png">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Resource>

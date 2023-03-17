@@ -6,18 +6,20 @@
       xmlns:local="clr-namespace:Vanguard_AIO.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Page1">
+      Title="Page1" Background="#FFCFA200">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="btAddCreator" Style="{StaticResource ExportButtonTheme}" Content="Add Creator" HorizontalAlignment="Left" Height="30" VerticalAlignment="Center" Width="115" Foreground="White" FontSize="16" FontFamily="Impact" Click="btAddCreator_Click" />
-        <ScrollViewer Grid.Row="1">
-            <UniformGrid x:Name="creatorGrid" Columns="4">
+        <Button x:Name="btAddCreator" Style="{StaticResource ExportButtonTheme}" Content="Add Creator" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="115" Foreground="White" FontSize="16" FontFamily="Impact" Click="btAddCreator_Click" />
+        <Border Grid.Row="1" Background="DimGray" CornerRadius="5">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <UniformGrid x:Name="creatorGrid" Columns="4" VerticalAlignment="Top">
 
-            </UniformGrid>
-        </ScrollViewer>
+                </UniformGrid>
+            </ScrollViewer>
+        </Border>
     </Grid>
 </Page>

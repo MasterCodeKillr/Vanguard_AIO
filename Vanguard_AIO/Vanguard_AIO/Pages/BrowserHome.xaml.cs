@@ -29,6 +29,21 @@ namespace Vanguard_AIO.Pages
             home = wbHome;
         }
 
+        public void goBack()
+        {
+            home.GoBack();
+        }
+
+        public void goForward()
+        {
+            home.GoForward();
+        }
+
+        public void refresh()
+        {
+            wbHome.Source = new Uri("https://narusamuraigaming.com/pages/vanguard-aio");
+        }
+
         public void NavigateTo(string url)
         {
             home.Source = new Uri(url);

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Vanguard_AIO.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Vanguard_AIO.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -483,6 +483,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>NGFS85SJmMJY8nBYznfGkpftCGVJNLJjsWg3eVabC4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="creatorlist.json" size="203">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YY38r+4oJyWBiyoG39F/Ar0FFUXB1oECHptR8OXUb90=</dsig:DigestValue>
     </hash>
   </file>
   <file name="cs\Microsoft.VisualBasic.Forms.resources.dll" size="25728">
@@ -1142,6 +1151,60 @@
       <dsig:DigestValue>WMAmvupSxDLXiDl18H4TiEQ52L0izzdheVnK0WgTT04=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Images\arrow.png" size="91366">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+KKtJm4K85dB3q8ybYFFXXzdGsCg8Cgp2XvP3XfBOG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\back_button.png" size="7539">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PRFQTM+StEshRQV5QcHNyLmJlvEupGXZuptP8poi6bA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\refresh_arrow.png" size="12004">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qdEncRWov/yS++QhTy/TbC6u+FNYuje7jIBNdSHZAbU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\twitchLogo.png" size="49882">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qBRrB1QPrrhIOMr72qA7Vv4YtWE5zSqIT5puXgIxsKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\twitterLogo.png" size="4437">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vrBxv/Oh8BM/nxxdCCi5rrxvco3flgd6+cFi4jywvug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\youTubeLogo.png" size="3748">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ExvZ1j0bHI5rZvzBXzy+a0XuJxefrq9Dnvme7naKzc0=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="it\Microsoft.VisualBasic.Forms.resources.dll" size="25728">
     <hash>
       <dsig:Transforms>
@@ -1448,13 +1511,13 @@
       <dsig:DigestValue>Vp/eo5rG+FzAnGNpASNDO4o153CN9RdLlv9DSqIazLk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="jsconfig.json" size="279">
+  <file name="jsconfig.json" size="514">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8zm87BeVK7Vtq1tKDibiyul645jWGAJ86ltIF4AUylE=</dsig:DigestValue>
+      <dsig:DigestValue>SZFjPBFZq8+WeYunoeMLg5nWXtvkqlZa98ovCynA7XU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ko\Microsoft.VisualBasic.Forms.resources.dll" size="25728">
@@ -4274,13 +4337,13 @@
       <dsig:DigestValue>92JOyftOQCFKJTW7xC9/pdhEstIrUOQe/V+xVFZxvMg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Vanguard_AIO.dll" size="307712">
+  <file name="Vanguard_AIO.dll" size="331264">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>p4Xv0g0ZAiOI2cdfvAg3Zh3znFGfJCzoG61mHAKc+yQ=</dsig:DigestValue>
+      <dsig:DigestValue>Hdqakya/aZ5fqXBoDij9owsmHhsjGwe/oeptj2+d8rU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Vanguard_AIO.dll.config" size="189">

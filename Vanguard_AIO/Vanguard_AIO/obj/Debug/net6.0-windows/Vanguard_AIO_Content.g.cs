@@ -8,7 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/arrow.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/back_button.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/refresh_arrow.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/twitchlogo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/twitterlogo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/youtubelogo.png")]
