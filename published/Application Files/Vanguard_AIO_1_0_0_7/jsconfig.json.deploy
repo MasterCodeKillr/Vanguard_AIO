@@ -1,0 +1,34 @@
+{
+  "exclude": [
+    "RR",
+    "RRR",
+    "C",
+    "Ｃ",
+    "R",
+    "Ｒ",
+    "PR",
+    "VR",
+    "TD",
+    "SD",
+    "10THRRR",
+    "SDS",
+    "URR",
+    "LR",
+    "ЯЯЯ",
+    "T",
+    "RE",
+    "WO",
+    "ORR",
+    "GR",
+    "ZR",
+    "LIR"
+  ],
+  "creators": [
+    {
+      "name": "MasterCodeKillr",
+      "twitch": "https://www.twitch.tv/narusamurai",
+      "youtube": "https://www.youtube.com/@NaruSamurai",
+      "twitter": "https://twitter.com/NaruSamurai"
+    }
+  ]
+}

@@ -20,53 +20,56 @@ namespace Vanguard_AIO.Components
     /// </summary>
     public partial class CreatorLinks : UserControl
     {
-        public CreatorLinks(string creatorName = "@Narusamurai", string twitchLink = "https://www.twitch.tv/narusamurai", string youtubeLink = "https://www.youtube.com/@NaruSamurai", string twitterLink = "https://twitter.com/NaruSamurai")
+        private readonly string twitchUrl;
+        private readonly string youtubeUrl;
+        private readonly string twitterUrl;
+        public CreatorLinks(string creatorName = "", string twitchLink = "", string youtubeLink = "", string twitterLink = "")
         {
+            this.twitchUrl = twitchLink;
+            this.youtubeUrl = youtubeLink;
+            this.twitterUrl = twitterLink;
             InitializeComponent();
             CreatorSetup(creatorName, twitchLink, youtubeLink, twitterLink);
         }
 
         private void CreatorSetup(string creatorName, string twitchLink, string youtubeLink, string twitterLink)
         {
-            formatImages(creatorName, twitchLink, youtubeLink, twitterLink);
+            FormatImages(creatorName, twitchLink, youtubeLink, twitterLink);
             creatorNamelbl.Content = creatorName;
-            twitchLogo.Tag = twitchLink;
-            youTubeLogo.Tag = youtubeLink;
-            twitchLogo.Tag = twitterLink;
         }
 
-        private void formatImages(string creatorName, string twitchLink, string youtubeLink, string twitterLink)
+        private void FormatImages(string creatorName, string twitchLink, string youtubeLink, string twitterLink)
         {
             var count = 0;
-            List<string> urls = new List<string>();
-            List<string> urlList = new List<string>
+            var urls = new List<string>();
+            var urlList = new List<string>
             {
                 twitchLink,
+                youtubeLink,
                 twitterLink,
-                youtubeLink
+                
             };
-            foreach (var link in urlList)
+            foreach (var link in urlList.Where(link => !string.IsNullOrEmpty(link)))
             {
-                if (!string.IsNullOrEmpty(link))
-                {
-                    count++;
-                    urls.Add(link);
-                }
+                count++;
+                urls.Add(link);
             }
 
-            if (count == 1)
+            switch (count)
             {
-                CreateSingleLink(urls);
+                case 1:
+                    CreateSingleLink(urls);
+                    break;
+                case 2:
+                    CreateDoubleLink(urls);
+                    break;
             }
-            if (count == 2)
-            {
-                CreateDoubleLink(urls);
-            }
+
             urlList.Clear();
             urls.Clear();
         }
 
-        private void CreateSingleLink(List<string> urls)
+        private void CreateSingleLink(IReadOnlyList<string> urls)
         {
             if (urls[0].ToLower().Contains("twitch"))
             {
@@ -88,7 +91,7 @@ namespace Vanguard_AIO.Components
             }
         }
 
-        private void CreateDoubleLink(List<string> urls)
+        private void CreateDoubleLink(IReadOnlyList<string> urls)
         {
             if (urls[0].ToLower().Contains("twitch"))
             {
@@ -100,14 +103,13 @@ namespace Vanguard_AIO.Components
                     Grid.SetColumn(youTubeLogo, 1);
                     Grid.SetColumnSpan(youTubeLogo, 2);
                 }
-                if (urls[1].ToLower().Contains("twitter"))
-                {
-                    youTubeLogo.Visibility = Visibility.Hidden;
-                    Grid.SetColumn(twitchLogo, 0);
-                    Grid.SetColumnSpan(twitchLogo, 2);
-                    Grid.SetColumn(twitterLogo, 1);
-                    Grid.SetColumnSpan(twitterLogo, 2);
-                }
+
+                if (!urls[1].ToLower().Contains("twitter")) return;
+                youTubeLogo.Visibility = Visibility.Hidden;
+                Grid.SetColumn(twitchLogo, 0);
+                Grid.SetColumnSpan(twitchLogo, 2);
+                Grid.SetColumn(twitterLogo, 1);
+                Grid.SetColumnSpan(twitterLogo, 2);
             }
             else if (urls[0].ToLower().Contains("youtube"))
             {
@@ -119,14 +121,13 @@ namespace Vanguard_AIO.Components
                     Grid.SetColumn(youTubeLogo, 1);
                     Grid.SetColumnSpan(youTubeLogo, 2);
                 }
-                if (urls[1].ToLower().Contains("twitter"))
-                {
-                    twitchLogo.Visibility = Visibility.Hidden;
-                    Grid.SetColumn(youTubeLogo, 0);
-                    Grid.SetColumnSpan(youTubeLogo, 2);
-                    Grid.SetColumn(twitterLogo, 1);
-                    Grid.SetColumnSpan(twitterLogo, 2);
-                }
+
+                if (!urls[1].ToLower().Contains("twitter")) return;
+                twitchLogo.Visibility = Visibility.Hidden;
+                Grid.SetColumn(youTubeLogo, 0);
+                Grid.SetColumnSpan(youTubeLogo, 2);
+                Grid.SetColumn(twitterLogo, 1);
+                Grid.SetColumnSpan(twitterLogo, 2);
             }
             else if (urls[0].ToLower().Contains("twitter"))
             {
@@ -138,30 +139,29 @@ namespace Vanguard_AIO.Components
                     Grid.SetColumn(twitterLogo, 1);
                     Grid.SetColumnSpan(twitterLogo, 2);
                 }
-                if (urls[1].ToLower().Contains("youtube"))
-                {
-                    twitchLogo.Visibility = Visibility.Hidden;
-                    Grid.SetColumn(youTubeLogo, 0);
-                    Grid.SetColumnSpan(youTubeLogo, 2);
-                    Grid.SetColumn(twitterLogo, 1);
-                    Grid.SetColumnSpan(twitterLogo, 2);
-                }
+
+                if (!urls[1].ToLower().Contains("youtube")) return;
+                twitchLogo.Visibility = Visibility.Hidden;
+                Grid.SetColumn(youTubeLogo, 0);
+                Grid.SetColumnSpan(youTubeLogo, 2);
+                Grid.SetColumn(twitterLogo, 1);
+                Grid.SetColumnSpan(twitterLogo, 2);
             }
         }
 
         private void twitchLogo_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer", twitchLogo.Tag.ToString());
+            System.Diagnostics.Process.Start("explorer", twitchUrl);
         }
 
         private void youTubeLogo_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer", youTubeLogo.Tag.ToString());
+            System.Diagnostics.Process.Start("explorer", youtubeUrl);
         }
 
         private void twitterLogo_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer", twitterLogo.Tag.ToString());
+            System.Diagnostics.Process.Start("explorer", twitterUrl);
         }
     }
 }

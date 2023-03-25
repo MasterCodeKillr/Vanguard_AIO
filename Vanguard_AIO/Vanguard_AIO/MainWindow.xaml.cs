@@ -165,13 +165,6 @@ namespace Vanguard_AIO
             tcgCheck = true;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if(MassEntryBtn.IsChecked == true)
-                tcgPage.goBack();
-
-        }
-
         private void BackButton_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (MassEntryBtn.IsChecked == true)
